@@ -1,0 +1,5 @@
+How to run a proxy between Windows and the Linux running in WSL2 for Apache Kafka
+
+1. As windows administrator run a DOS command line
+2. Run the following command: 
+netsh interface portproxy add v4tov4 listenport=9092 listenaddress=0.0.0.0 connectport=9092 connectaddress=172.17.226.215 //This the Linux IP in WSL2

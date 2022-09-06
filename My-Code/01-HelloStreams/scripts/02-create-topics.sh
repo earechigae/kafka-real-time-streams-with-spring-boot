@@ -1,0 +1,2 @@
+echo "kafka-topics --bootstrap-server 127.0.0.1:9092 --topic users --create --partitions 1 --replication-factor 1"
+kafka-topics --bootstrap-server 127.0.0.1:9092 --topic users --create --partitions 1 --replication-factor 1
